@@ -1,0 +1,75 @@
+*{  
+    background-color: rgb(228, 177, 160);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    width:auto;
+    height:50px;
+    word-spacing: 20px;
+    text-align: right;
+    padding: 25px;
+    margin: 10px;
+}
+a{
+    font-size: 20px;
+    color: rgb(85, 131, 107);
+    text-decoration: none;
+}
+
+.main{
+    padding-left: 100px;
+
+}
+
+#myname{
+    font-size: 100px;
+    color: rgb(85, 131, 107);
+    padding-top: 50px;
+}
+
+#java{
+    font-size: 70px;
+    color: rgb(85, 131, 107) ;
+}
+
+section{
+    width: 70%;
+    
+
+}
+h3{
+    font-size: 50px;
+    color: rgb(85, 131, 107);
+    text-align: center;
+}
+
+.aboutme{
+    align-content: center;
+}
+
+img{
+    border-radius: 50%;
+    background-color: rgb(112, 162, 136);
+}
+
+#description{
+    font-size: 27px;
+    color: rgb(85, 131, 107);
+    text-align: justify;
+}
+
+footer{
+    text-align: center;
+    color: rgb(85, 131, 107)
+}
+
+/* Colores:
+rgb(218 183 133) - Tan
+background-color: rgb(213, 137, 111);
+rgb(196, 147, 131);
+rgb(4, 57, 94)
+rgb(4, 57, 94)
+rgb(223, 163, 143) - Melón
+rgb(112, 162, 136) - Cambridge Blue
+*/
