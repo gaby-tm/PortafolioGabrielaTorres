@@ -1,75 +1,77 @@
-*{  
-    background-color: rgb(228, 177, 160);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+body { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #FFE4E1;
 }
 
-nav{
-    width:auto;
-    height:50px;
-    word-spacing: 20px;
-    text-align: right;
-    padding: 25px;
-    margin: 10px;
-}
-a{
-    font-size: 20px;
-    color: rgb(85, 131, 107);
-    text-decoration: none;
-}
-
-.main{
+.frontPage {
     padding-left: 100px;
-
+    margin-bottom: 400px;
+    margin-top: 130px;
 }
 
-#myname{
-    font-size: 100px;
-    color: rgb(85, 131, 107);
-    padding-top: 50px;
+#myName {
+    font-size: 80px;
+    color: #C08081;
+    padding-top: 30px;
 }
 
-#java{
-    font-size: 70px;
+#developer {
+    font-size: 55px;
     color: rgb(85, 131, 107) ;
+    text-align: left;
+    color: #C08081;
 }
 
-section{
-    width: 70%;
-    
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
 
-}
-h3{
-    font-size: 50px;
-    color: rgb(85, 131, 107);
-    text-align: center;
-}
-
-.aboutme{
-    align-content: center;
+#profilePic{
+    width: 280px;
+    height: auto;
+    margin-top: 30px;
 }
 
-img{
-    border-radius: 50%;
-    background-color: rgb(112, 162, 136);
+#titleAbout {
+    font-size: 40px;
+    color: #C08081;
+    /* text-align: center; */
 }
 
-#description{
-    font-size: 27px;
-    color: rgb(85, 131, 107);
+#descript{
     text-align: justify;
+    width: 50%;
+    height: auto;
+    margin-top: 2.5rem;
+    margin-bottom: 12rem;
+    color: #C08081;
 }
 
-footer{
+footer {
+    color: #C08081;
     text-align: center;
-    color: rgb(85, 131, 107)
+  
 }
+
 
 /* Colores:
+243, 237, 223 - Old Lace #FDF5E6
+226, 207, 208 - mysty rose #FFE4E1
+255, 197, 190 melon - #FFC5BE
+180, 130, 132 - old rose #C08081
+178, 190, 181 - ash grey
+139, 139, 139 - grey
+135, 153, 140 - cambridge blue
+
 rgb(218 183 133) - Tan
-background-color: rgb(213, 137, 111);
+rgb(213, 137, 111);
 rgb(196, 147, 131);
 rgb(4, 57, 94)
 rgb(4, 57, 94)
 rgb(223, 163, 143) - Melón
 rgb(112, 162, 136) - Cambridge Blue
+rgb(255, 183, 197) - Cherry Blosom Pink
 */

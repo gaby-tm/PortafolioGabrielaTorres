@@ -1,0 +1,47 @@
+nav {
+    width:auto;
+    /* height:30px; */
+    word-spacing: 20px;
+    text-align: right;
+    padding: 25px;
+    /* nav-link-hover-color: var(--#{$prefix}navbar-hover-color); */
+}
+
+a {
+    font-size: 20px;
+    color:04395e;
+    text-decoration: none;
+}
+
+#navHome{
+    color: #C08081;
+}
+
+#navHome:hover{
+    color: #D3A5A5;
+}
+
+#navAbout{
+    color: #C08081;
+}
+
+#navAbout:hover{
+    color: #D3A5A5;
+}
+
+#navProjects {
+    margin-left: 20px;
+    color: #C08081;
+}
+
+#navProjects:hover{
+    color: #D3A5A5;
+}
+
+#navContact {
+    color: #C08081;
+}
+
+#navContact:hover{
+    color: #D3A5A5;
+}
